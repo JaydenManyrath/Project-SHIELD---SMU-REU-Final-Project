@@ -1,0 +1,71 @@
+2025-07-22 15:15:01,312 [INFO] Loading image datasets...
+2025-07-22 15:15:06,994 [INFO] Generating SVD compression showcase visual...
+2025-07-22 15:15:07,158 [INFO] ✅ SVD Showcase saved to /Users/abhivur/Documents/SMU_REU/dallas/project/SMU-REU/final_results/svd_compression_showcase.png
+2025-07-22 15:15:07,158 [INFO] Generating perturbed 'drone simulation' image...
+2025-07-22 15:15:07,161 [INFO] ✅ Perturbed image saved to /Users/abhivur/Documents/SMU_REU/dallas/project/SMU-REU/final_results/sample_group_CHALLENGED.jpg
+2025-07-22 15:15:07,161 [INFO] 
+============================================================
+Starting SVD Model Experiments (Varying k)
+============================================================
+2025-07-22 15:15:07,162 [INFO] 
+--- Testing SVD with k=8 ---
+2025-07-22 15:15:28,884 [INFO] k=8 -> Accuracy: 0.8723, Avg Time: 0.0874s, Payload: 1544
+2025-07-22 15:15:28,884 [INFO] 
+--- Testing SVD with k=16 ---
+2025-07-22 15:16:12,601 [INFO] k=16 -> Accuracy: 0.7277, Avg Time: 0.1802s, Payload: 3088
+2025-07-22 15:16:12,602 [INFO] 
+--- Testing SVD with k=24 ---
+2025-07-22 15:17:16,701 [INFO] k=24 -> Accuracy: 0.7106, Avg Time: 0.2622s, Payload: 4632
+2025-07-22 15:17:16,702 [INFO] 
+--- Testing SVD with k=32 ---
+2025-07-22 15:18:41,302 [INFO] k=32 -> Accuracy: 0.7489, Avg Time: 0.3490s, Payload: 6176
+2025-07-22 15:18:41,302 [INFO] 
+--- Generating Annotated Images using k=24 model ---
+2025-07-22 15:18:43,891 [INFO] Running full analysis on base.jpg...
+2025-07-22 15:18:44,292 [INFO] ✅ Annotated image saved to /Users/abhivur/Documents/SMU_REU/dallas/project/SMU-REU/final_results/group_analysis_SVD_STANDARD.jpg
+2025-07-22 15:18:44,292 [INFO] Running full analysis on sample_group_CHALLENGED.jpg...
+2025-07-22 15:18:44,583 [INFO] ✅ Annotated image saved to /Users/abhivur/Documents/SMU_REU/dallas/project/SMU-REU/final_results/group_analysis_SVD_CHALLENGED_OUTPUT.jpg
+2025-07-22 15:18:44,583 [INFO] 
+Using baseline stats for plotting: {'accuracy': 0.8878, 'time': 6.2345, 'payload': 9216}
+2025-07-22 15:18:44,583 [INFO] Generating quantitative results plots...
+2025-07-22 15:18:44,727 [INFO] ✅ Quantitative plots saved.
+2025-07-22 15:18:44,727 [INFO] 
+🎉 All SVD model visuals and plots have been generated in the 'results' folder!
+2025-07-22 16:12:11,589 [INFO] Loading image datasets...
+2025-07-22 16:12:17,462 [INFO] Generating SVD compression showcase visual...
+2025-07-22 16:12:17,708 [INFO] ✅ SVD Showcase saved to /Users/abhivur/Documents/SMU_REU/dallas/project/SMU-REU/final_results/svd_compression_showcase.png
+2025-07-22 16:12:17,708 [WARNING] /Users/abhivur/Documents/SMU_REU/dallas/project/SMU-REU/base.jpg not found. Skipping drone simulation visuals.
+2025-07-22 16:12:17,708 [INFO] 
+============================================================
+Starting SVD Model Experiments (Varying k)
+============================================================
+2025-07-22 16:12:17,710 [INFO] 
+--- Testing SVD with k=8 ---
+2025-07-22 16:13:21,919 [INFO] Loading image datasets...
+2025-07-22 16:13:27,547 [INFO] Generating SVD compression showcase visual...
+2025-07-22 16:13:27,782 [INFO] ✅ SVD Showcase saved to /Users/abhivur/Documents/SMU_REU/dallas/project/SMU-REU/final_results/svd_compression_showcase.png
+2025-07-22 16:13:27,782 [WARNING] /Users/abhivur/Documents/SMU_REU/dallas/project/SMU-REU/base.jpg not found. Skipping drone simulation visuals.
+2025-07-22 16:13:27,782 [INFO] 
+============================================================
+Starting SVD Model Experiments (Varying k)
+============================================================
+2025-07-22 16:13:27,785 [INFO] 
+--- Testing SVD with k=8 ---
+2025-07-22 16:13:55,677 [INFO] k=8 -> Accuracy: 0.8468, Avg Time: 0.1113s, Payload: 2056
+2025-07-22 16:13:55,677 [INFO] 
+--- Testing SVD with k=16 ---
+2025-07-22 16:14:57,677 [INFO] k=16 -> Accuracy: 0.8000, Avg Time: 0.2525s, Payload: 4112
+2025-07-22 16:14:57,677 [INFO] 
+--- Testing SVD with k=24 ---
+2025-07-22 16:16:25,611 [INFO] k=24 -> Accuracy: 0.7957, Avg Time: 0.3563s, Payload: 6168
+2025-07-22 16:16:25,612 [INFO] 
+--- Testing SVD with k=32 ---
+2025-07-22 16:18:24,440 [INFO] k=32 -> Accuracy: 0.6851, Avg Time: 0.4903s, Payload: 8224
+2025-07-22 16:18:24,440 [INFO] 
+--- Generating Annotated Images using k=24 model ---
+2025-07-22 16:18:26,565 [INFO] 
+Using baseline stats for plotting: {'accuracy': 0.879, 'time': 1.0554, 'payload': 9216}
+2025-07-22 16:18:26,565 [INFO] Generating quantitative results plots...
+2025-07-22 16:18:26,707 [INFO] ✅ Quantitative plots saved.
+2025-07-22 16:18:26,707 [INFO] 
+🎉 All SVD model visuals and plots have been generated in the 'results' folder!
