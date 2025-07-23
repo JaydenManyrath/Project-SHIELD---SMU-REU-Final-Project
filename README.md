@@ -150,3 +150,6 @@ This project demonstrates a viable pipeline for privacy-preserving surveillance 
 
 This work was completed under the NSF-funded SCALE REU program.  
 We thank Dr. Camp and Dr. Aceves for their mentorship and support.
+
+## Contributors
+Abhinav Vurakaranam, Andres Rodriguez, Jayden Manyrath
