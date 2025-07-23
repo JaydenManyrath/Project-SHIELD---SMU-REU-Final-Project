@@ -38,7 +38,7 @@ GENERAL_DIR = os.path.join(DATA_DIR, "General")
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 CASCADE_FRONTAL = cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
-SAMPLE_GROUP_IMAGE = os.path.join(BASE_DIR, "base.jpg")
+SAMPLE_GROUP_IMAGE = os.path.join(BASE_DIR, "sample_image", "base.jpg")
 
 # Logging setup
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", handlers=[
